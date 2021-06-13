@@ -1,16 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import { Content } from "./components/content";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          The Art of Cici Woolf - Under Construction
-        </p>
-      
-      </header>
+       <Router>
+         <Content />
+       </Router>
     </div>
   );
 }

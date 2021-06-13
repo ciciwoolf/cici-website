@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+ .container {
+    font-size: 40px;    
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    height: 100vh;
+   
+  }  
+    
+  .d1{
+       background:#FFFFFF;
+    }
+
+  .d2 {          
+      background: url("https://artofcici-img.s3.amazonaws.com/side.jpg") no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+     
+    }
+
+    .name {      
+      font-family: 'Homemade Apple', cursive, sans-serif;
+      color: white;
+      font-size: 2.5rem;
+      text-align: center;
+
+    }
+
+    .city {
+      text-align: center;
+      margin-top: 15rem;
+      font-family: 'Homemade Apple', cursive, sans-serif;
+      color: white;
+      font-size: 2.5rem;          
+    }
+
+    .container2 {
+      font-size: 40px;
+      width: 100%;
+      background: #8C2155;
+      display: grid;
+      grid-template-rows: 100%;   
+      width: 100vw;
+      height: 50vh;
+    }
+  
+
+      .contact {       
+      text-align: right;     
+      font-family: 'Homemade Apple', cursive, sans-serif;
+      color: white;
+      font-size: 2.5rem;  
+      margin-top: 14rem;
+      margin-right: 5rem;
+    }
+
+
+    /* Media Queries */
+
+    @media screen and (max-width: 1050px) {
+    
+      .city {
+        padding: .75rem;  
+        text-align: center;   
+        font-size: 1rem;
+      }
+    }
+
+
+    @media screen and (max-width: 600px) {
+      .name {
+        padding: .75rem;  
+        text-align: center;   
+        font-size: 1.5rem;
+      }
+
+      .city {
+        padding: .75rem;  
+        text-align: center;   
+        font-size: 1rem;
+      }
+    }
+
+
+    @media screen and (max-width: 450px) {
+      .name {
+        padding: .75rem;  
+        text-align: center;   
+        font-size: 1.5rem;
+      }
+
+      .city {
+        display: none;
+       
+      }
+    }
