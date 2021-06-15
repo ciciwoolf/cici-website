@@ -25,23 +25,23 @@ export const Home = () => {
 
 
   return (
-    <body className={ styles.wrapper}>
+    <div className={ styles.wrapper}>
         <section className={ styles.container}>
-            <div className={styles.d1}><Art/></div>
-            <div className={styles.d2}>
+            <div className={styles.content}><Art/></div>
+            <div className={styles.sidebar}>
               <p className={styles.name}>Cici Woolf</p>
-              <p className={styles.city}>Minneapolis --
-              {"\n"}Buenos Aires
+              <p className={styles.city}>Minneapolis --<br/>Buenos Aires
               </p>              
 
             </div>
                               
         </section>
 
-        <section className={ styles.container2}>           
-            <div className={styles.contact}>Contact</div>           
-        </section>
-    </body>
+        <footer className={ styles.footer}>             
+            <div className={styles.gallery}>Gallery</div>   
+            <div className={styles.contact}>Contact</div>         
+        </footer>
+    </div>
     
   );
 };

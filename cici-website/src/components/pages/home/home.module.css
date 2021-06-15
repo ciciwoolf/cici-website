@@ -3,71 +3,93 @@
 
 
 .wrapper {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
 }
 
-
  .container {
-    font-size: 40px;    
     width: 100%;
-    background: LightGray;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 1fr;
     height: 100vh;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 40px;    
+    background: LightGray;
   }  
     
-  .d1{
+  .content{
+      flex-grow: 3;
        background:#FFFFFF;
+       flex-wrap: wrap;
     }
 
-  .d2 {          
+  .sidebar { 
+      min-width: 30%;
+      flex-grow: 0.3;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
       background: url("https://artofcici-img.s3.amazonaws.com/side.jpg") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
      
     }
 
-    .name {      
+    .name {     
+      margin-top: 3rem; 
+      padding: 0 1rem;
       font-family: 'Homemade Apple', cursive, sans-serif;
       color: white;
-      font-size: 2.5rem;
+      font-size: 3rem;
       text-align: center;
 
     }
 
     .city {
+      margin-bottom: 10rem;
+      padding: 0 1rem;
+      align-self: flex-end;
       text-align: center;
-      margin-top: 15rem;
       font-family: 'Homemade Apple', cursive, sans-serif;
       color: white;
-      font-size: 2.5rem;          
+      font-size: 2rem;          
     }
 
-    .container2 {
+    .footer {
       font-size: 40px;
-      width: 100%;
       background: #8C2155;
-      display: grid;
-      grid-template-rows: 100%;   
-      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
       height: 50vh;
     }
   
 
       .contact {       
-      text-align: right;     
+      margin-bottom: 2rem;
+      margin-right: 2rem;
       font-family: 'Homemade Apple', cursive, sans-serif;
       color: white;
       font-size: 2.5rem;  
-      margin-top: 14rem;
-      margin-right: 5rem;
+     
+      /* margin-top: 14rem;
+      margin-right: 5rem; */
+    }
+
+    .gallery {       
+      margin-bottom: 2rem;
+      margin-right: 3rem;
+      font-family: 'Homemade Apple', cursive, sans-serif;
+      color: white;
+      font-size: 2.5rem;  
+      /* margin-top: 14rem;
+      margin-right: 5rem; */
     }
 
 
@@ -84,6 +106,11 @@
 
 
     @media screen and (max-width: 600px) {
+
+      .sidebar { 
+        min-width: none;
+       
+      }
       .name {
         padding: .75rem;  
         text-align: center;   

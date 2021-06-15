@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans:ital,wght@1,300&display=swap');
 
 * {
-  box-sizing: border-box;
+  
   font-family: 'Open Sans', sans-serif;
+  margin:0;
+  padding: 0;
  
 }
 
@@ -10,10 +12,6 @@ html {
   /* text-align: center; */
   background-color: #1AC8ED;
   font-family: 'Open Sans', sans-serif;
-  width: 100vw;
-  height: 100vh;
- 
-  
 }
 
 .App {
@@ -24,8 +22,3 @@ html {
 
 
 
-/*
-
-
-display: grid;
-  grid-template-columns: 20% 20% 20% 40%; */

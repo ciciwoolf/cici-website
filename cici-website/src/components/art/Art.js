@@ -8,17 +8,22 @@ export const Art = () => {
   return (
     
      <div className={styles.wrapper}>
-      {SquaredWorks.map((item) => {
+       
+    {SquaredWorks.map((item) => {
         console.log(item)
         return (
-          <ArtItem
+           <ArtItem
             id={item.id}
             image={item.image}
             name={item.name} 
         />
+      
         );
-      })}
+      })} 
     </div>     
     
   )
 }
+
+{/* http://www.andreamanningart.com/accumulations */}
+       {/* https://www.npmjs.com/package/react-simple-modal-slideshow */}

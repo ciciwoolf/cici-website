@@ -6,13 +6,9 @@ import styles from "./content.module.css";
 import { Contact} from "../pages/contact/Contact";
 import { Home} from "../pages/home/Home";
 
-// import { BookSlider } from "../../bookslider";
-// import { BioCard } from "../../bio-card";
-
 
 export const Content = () => {
   return (
-    <section className="appBody">
       <Switch>
         <Route exact path="/">
         <Home/>      
@@ -21,7 +17,6 @@ export const Content = () => {
           <Contact />
         </Route>
       </Switch>
-    </section>
   );
 };
 
