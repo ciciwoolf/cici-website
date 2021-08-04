@@ -1,143 +1,105 @@
 
-    export const BioImg = [
-        {
-        id: 1,
-        name: "Cici Woolf",
-        image: "https://artofcici-img.s3.amazonaws.com/20190922_163748.jpg"
-        }
-    ]
 
-    export const SideImg = [
-      {
+  export const MiscWorks = [
+    {
       id: 1,
-      name: "Cici Woolf",
-      image: "https://artofcici-img.s3.amazonaws.com/side.png"
-      }
-  ]
-
-  export const SquaredWorks = [
-      {
-        id: 1,
-        name: "Bee Trees",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-1.png"
-      },
-      {
-        id: 2,
-        name: "Take 2 of the Teapot",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-20.png"
-      },
-      {
-        id: 3,
-        name: "Emily and her Books",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-6.png"
-      },
-
-       {
-        id: 4,
-        name: "Libros del Paisaje",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-2.png"
-      },
-
-      {
-        id: 5,
-        name: "SPCO at Icehouse, MPLS",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-3.png"
-      },
-      {
-        id: 6,
-        name: "Selfie",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-7.png"
-      },
+      name: "Bee Trees",
+      image: "https://artofcici-img.s3.amazonaws.com/beatrees.jpg",
+      height: 475,
+      width: 950
+    },   
+    {
+      id: 2,
+      name: "Emily and her Books",
+      image: "https://artofcici-img.s3.amazonaws.com/emily.jpg",
+      height: 475,
+      width: 475
+    },
+     {
+      id: 3,
+      name: "Libros del Paisaje",
+      image: "https://artofcici-img.s3.amazonaws.com/libros.jpg",
+      height: 475,
+      width: 475
+    },  
+    {
+      id: 4,
+      name: "Cici Selfie",
+      image: "https://artofcici-img.s3.amazonaws.com/cici.jpg",
+      height: 475,
+      width: 238
+    },       
+    {
+      id: 5,
+      name: "Lucio: Quarantine Buddy",
+      image: "https://artofcici-img.s3.amazonaws.com/lucio.jpg",
+      height: 475,
+      width: 475
+    },
+    {
+      id: 6,
+      name: "Tea with Chick Corea II",
+      image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
+      height: 475,
+      width: 475
+    },
       
-      {
-        id: 7,
-        name: "Wednesday laundries; change of view",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-5a.png"
-       },
-     
-      {
-        id: 8,
-        name: "The Gorgeous Tipas",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-4.png"
-      },
-      {
-        id: 9,
-        name: "Quarantine Buddy",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-5.png"
-      },
-      {
-        id: 10,
-        name: "Walks with Pamela",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-8.png"
-      },
-      {
-        id: 11,
-        name: "Carlos Michelini Trio at Borges",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-14.png"
-      },
-      {
-        id: 12,
-        name: "Tea with Chick Corea",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-17.png"
-      },
-        
-      {
-        id: 13,
-        name: "Wolf Dream",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-9.png"
-      },  
-  
+    {
+      id: 7,
+      name: "Wolf Dream",
+      image: "https://artofcici-img.s3.amazonaws.com/minnwolf.jpg",
+      height: 475,
+      width: 950
+    },      
+    {
+      id: 8,
+      name: "Literature and Muay Thai",
+      image: "https://artofcici-img.s3.amazonaws.com/gloves.jpg",
+      height: 475,
+      width: 238
+    },
+    {
+      id: 9,
+      name: "Charlie's Japanese Jiu Jitsu",
+      image: "https://artofcici-img.s3.amazonaws.com/charlie.jpg",
+      height: 475,
+      width: 238
+    },
+    {
+      id: 10,
+      name: "Pets in Palo Borracho trees",
+      image: "https://artofcici-img.s3.amazonaws.com/pets.jpg",
+      height: 475,
+      width: 950
+    },
+    {
+      id: 11,
+      name: "Toad and his Ghost",
+      image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+      height: 475,
+      width: 475
+    },
+    {
+      id: 12,
+      name: "Glass Shards",
+      image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+      height: 475,
+      width: 475
+    }
+]
 
-       {
-         id: 14,
-         name: "Palermo Soho in Summer",
-         image: "https://artofcici-img.s3.amazonaws.com/simg-13.png"
-       },
 
-      {
-        id: 15,
-        name: "Literature and Muay Thai",
-        image: "https://artofcici-img.s3.amazonaws.com/simg-18.png"
-      },
-  ]
-    
-      // {
-      //   id: 16,
-      //   name: "Broken Glass",
-      //   image: "https://artofcici-img.s3.amazonaws.com/simg-16.png"
-      // },
-      // {
-      //   id: 17,
-      //   name: "Japanese Jiu Jitsu with Charlie",
-      //   image: "https://artofcici-img.s3.amazonaws.com/simg-21.png"
-      // },
-      // {
-      //   id: 18,
-      //   name: "My Animals",
-      //   image: "https://artofcici-img.s3.amazonaws.com/simg-11.png"
-      // },
-      // {
-      //   id: 19,
-      //   name: "Kol Nidrei and the Toad",
-      //   image: "https://artofcici-img.s3.amazonaws.com/simg-12.png"
-      // },
-      // {
-      //   id: 20,
-      //   name: "Wanderlust Lit Class",
-      //   image: "https://artofcici-img.s3.amazonaws.com/simg-19.png"
-      // }
 
   
-  
-  
-  
+  //Add in width and height
   
     export const CompleteWorks = [
     {
       id: 1,
       name: "Bee Trees",
       description: "First experimentation with pen and watercolor at Mónica and Marcelo's house, with a glass of Argentine wine at my side.",
-      image: "https://artofcici-img.s3.amazonaws.com/IMG-1.jpg"
+      image: "https://artofcici-img.s3.amazonaws.com/IMG-1.jpg",
+      
     },
 
     {

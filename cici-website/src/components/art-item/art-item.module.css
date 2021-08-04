@@ -1,19 +1,39 @@
 
-
-.wrapper {
+ .wrapper {
     padding: 0;
     margin: 0 auto;
     margin-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;    
+    width: 25%;
+    border: blueviolet solid;    
+    align-items: flex-start;
 }
 
 .image {
-    max-width: 9rem;
-    padding: .5rem;
     
+    max-width: 9rem;
+    max-height: fit-content;
+    min-width: 12rem;
+    border-radius: .75rem;    
+    padding: .5rem;    
     
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1290px) {
+
+    .wrapper {
+        margin: 0 auto;        
+    }
+    
+    .image {
+        max-width: 8rem;
+        padding: .5rem;
+    }
+  } 
+
 
 @media screen and (max-width: 1050px) {
     
@@ -21,4 +41,4 @@
         max-width: 7rem;
         padding: .25rem;
     }
-  }
+  }  

@@ -1,2 +1,2 @@
-import {Art} from "./Art";
-export {Art};
+import {ArtList} from "./ArtList";
+export {ArtList};

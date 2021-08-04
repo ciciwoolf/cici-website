@@ -1,7 +1,6 @@
-
 import React from "react";
 import styles from "./art-item.module.css";
-// import {SolidLink} from "../buttons/solidButton";
+
 
        
 export const ArtItem = (props) => {
@@ -13,4 +12,3 @@ console.log(props)
         </div>  
       );
     }
-  
