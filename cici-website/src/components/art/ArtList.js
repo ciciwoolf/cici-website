@@ -1,10 +1,10 @@
 import React from "react";
 import { ArtItem } from "../art-item/ArtItem";
 import styles from "./artList.module.css"
-import { MiscWorks } from "../../data/data"
+import { SquaredWorks } from "../../data/data"
 
 export const ArtList = () => {
-  const artWorkImages =  MiscWorks.map((item) => {
+  const artWorkImages =  SquaredWorks.map((item) => {
     console.log(item)
        return (
        <ArtItem

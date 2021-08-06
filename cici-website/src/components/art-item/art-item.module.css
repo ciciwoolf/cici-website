@@ -6,8 +6,9 @@
     display: flex;
     flex-flow: row wrap;    
     width: 25%;
-    border: blueviolet solid;    
+    /* border: blueviolet solid;     */
     align-items: flex-start;
+
 }
 
 .image {

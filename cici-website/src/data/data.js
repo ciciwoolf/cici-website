@@ -44,27 +44,27 @@
       width: 475
     },
       
-    {
-      id: 7,
-      name: "Wolf Dream",
-      image: "https://artofcici-img.s3.amazonaws.com/minnwolf.jpg",
-      height: 475,
-      width: 950
-    },      
-    {
-      id: 8,
-      name: "Literature and Muay Thai",
-      image: "https://artofcici-img.s3.amazonaws.com/gloves.jpg",
-      height: 475,
-      width: 238
-    },
-    {
-      id: 9,
-      name: "Charlie's Japanese Jiu Jitsu",
-      image: "https://artofcici-img.s3.amazonaws.com/charlie.jpg",
-      height: 475,
-      width: 238
-    },
+    // {
+    //   id: 7,
+    //   name: "Wolf Dream",
+    //   image: "https://artofcici-img.s3.amazonaws.com/minnwolf.jpg",
+    //   height: 475,
+    //   width: 950
+    // },      
+    // {
+    //   id: 8,
+    //   name: "Literature and Muay Thai",
+    //   image: "https://artofcici-img.s3.amazonaws.com/gloves.jpg",
+    //   height: 475,
+    //   width: 238
+    // },
+    // {
+    //   id: 9,
+    //   name: "Charlie's Japanese Jiu Jitsu",
+    //   image: "https://artofcici-img.s3.amazonaws.com/charlie.jpg",
+    //   height: 475,
+    //   width: 238
+    // },
     {
       id: 10,
       name: "Pets in Palo Borracho trees",
@@ -86,6 +86,89 @@
       height: 475,
       width: 475
     }
+]
+
+
+export const SquaredWorks = [
+  
+  {
+    id: 1,
+    name: "Emily and her Books",
+    image: "https://artofcici-img.s3.amazonaws.com/emily.jpg",
+    height: 475,
+    width: 475
+  },
+   {
+    id: 2,
+    name: "Libros del Paisaje",
+    image: "https://artofcici-img.s3.amazonaws.com/libros.jpg",
+    height: 475,
+    width: 475
+  },         
+  {
+    id: 3,
+    name: "Lucio: Quarantine Buddy",
+    image: "https://artofcici-img.s3.amazonaws.com/lucio.jpg",
+    height: 475,
+    width: 475
+  },
+  {
+    id: 4,
+    name: "Tea with Chick Corea II",
+    image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
+    height: 475,
+    width: 475
+  },    
+   {
+    id: 5,
+    name: "Toad and his Ghost",
+    image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+    height: 475,
+    width: 475
+  },
+  {
+    id: 6,
+    name: "Glass Shards",
+    image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+   
+  },
+  {
+    id: 7,
+    name: "Beatrees",
+    image: "https://imgsquarejuly22.s3.amazonaws.com/beatrees.jpg",
+   
+  },
+   {
+    id: 8,
+    name: "Minnesota Dream",
+    image: "https://imgsquarejuly22.s3.amazonaws.com/MN.jpg"    
+  },         
+  {
+    id: 9,
+    name: "Selfie",
+    image: "https://imgsquarejuly22.s3.amazonaws.com/selfie.jpg",
+   
+  },
+  {
+    id: 10,
+    name: "Pets",
+    image: "https://imgsquarejuly22.s3.amazonaws.com/pets.jpg",
+    
+  },    
+   {
+    id: 11,
+    name: "Toad and his Ghost",
+    image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+    height: 475,
+    width: 475
+  },
+  {
+    id: 12,
+    name: "Glass Shards",
+    image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+    height: 475,
+    width: 475
+  }
 ]
 
 

@@ -1,9 +1,10 @@
 .wrapper {
     padding: 2rem;
     min-height: 100vh;
-    border: blue solid;  
+    /* border: blue solid;   */
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 
 }
 
