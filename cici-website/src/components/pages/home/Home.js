@@ -8,26 +8,12 @@ import {ArtList} from "../../art";
 
 export const Home = () => {
 
-// const onResize = () => {
-//   const normText = isLargeScreen();
-//   setVisibility(normText);
-// }
-
-// const textTransform = () => {
-//   const normText = isLargeScreen();
-//   if (!normText) {
-//     setVisibility(false);
-//   }
-// }
-
-// window.onresize = onResize;
-// const [isVisible, setVisibility] = useState(isLargeScreen());
-
-
   return (
     <div className={ styles.wrapper}>
         <section className={ styles.container}>
-            <div className={styles.content}><ArtList/></div>
+            <div className={styles.content}>
+              <div className={styles.artContainer}><ArtList/></div>             
+              </div>
             <div className={styles.sidebar}>
               <p className={styles.name}>Cici Woolf</p>
               <p className={styles.city}>Minneapolis --<br/>Buenos Aires

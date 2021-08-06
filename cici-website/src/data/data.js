@@ -36,56 +36,56 @@
       height: 475,
       width: 475
     },
-    {
-      id: 6,
-      name: "Tea with Chick Corea II",
-      image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
-      height: 475,
-      width: 475
-    },
+    // {
+    //   id: 6,
+    //   name: "Tea with Chick Corea II",
+    //   image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
+    //   height: 475,
+    //   width: 475
+    // },
       
-    {
-      id: 7,
-      name: "Wolf Dream",
-      image: "https://artofcici-img.s3.amazonaws.com/minnwolf.jpg",
-      height: 475,
-      width: 950
-    },      
-    {
-      id: 8,
-      name: "Literature and Muay Thai",
-      image: "https://artofcici-img.s3.amazonaws.com/gloves.jpg",
-      height: 475,
-      width: 238
-    },
-    {
-      id: 9,
-      name: "Charlie's Japanese Jiu Jitsu",
-      image: "https://artofcici-img.s3.amazonaws.com/charlie.jpg",
-      height: 475,
-      width: 238
-    },
-    {
-      id: 10,
-      name: "Pets in Palo Borracho trees",
-      image: "https://artofcici-img.s3.amazonaws.com/pets.jpg",
-      height: 475,
-      width: 950
-    },
-    {
-      id: 11,
-      name: "Toad and his Ghost",
-      image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
-      height: 475,
-      width: 475
-    },
-    {
-      id: 12,
-      name: "Glass Shards",
-      image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
-      height: 475,
-      width: 475
-    }
+    // {
+    //   id: 7,
+    //   name: "Wolf Dream",
+    //   image: "https://artofcici-img.s3.amazonaws.com/minnwolf.jpg",
+    //   height: 475,
+    //   width: 950
+    // },      
+    // {
+    //   id: 8,
+    //   name: "Literature and Muay Thai",
+    //   image: "https://artofcici-img.s3.amazonaws.com/gloves.jpg",
+    //   height: 475,
+    //   width: 238
+    // },
+    // {
+    //   id: 9,
+    //   name: "Charlie's Japanese Jiu Jitsu",
+    //   image: "https://artofcici-img.s3.amazonaws.com/charlie.jpg",
+    //   height: 475,
+    //   width: 238
+    // },
+    // {
+    //   id: 10,
+    //   name: "Pets in Palo Borracho trees",
+    //   image: "https://artofcici-img.s3.amazonaws.com/pets.jpg",
+    //   height: 475,
+    //   width: 950
+    // },
+    // {
+    //   id: 11,
+    //   name: "Toad and his Ghost",
+    //   image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+    //   height: 475,
+    //   width: 475
+    // },
+    // {
+    //   id: 12,
+    //   name: "Glass Shards",
+    //   image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+    //   height: 475,
+    //   width: 475
+    // }
 ]
 
 

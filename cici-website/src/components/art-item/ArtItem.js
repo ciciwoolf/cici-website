@@ -7,7 +7,7 @@ export const ArtItem = (props) => {
 console.log(props)
   
        return (         
-        <div className={styles.wrapper}>   
+        <div>   
             <img className={styles.image} alt ={props.name} src={props.image}/>                  
         </div>  
       );

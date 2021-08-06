@@ -1,22 +1,10 @@
 
- .wrapper {
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 0;
-    display: flex;
-    flex-flow: row wrap;    
-    width: 25%;
-    border: blueviolet solid;    
-    align-items: flex-start;
-}
-
 .image {
-    
-    max-width: 9rem;
-    max-height: fit-content;
+    max-width: 175px;
+    padding: 0rem; 
+    margin: 1rem .75rem;    
     min-width: 12rem;
-    border-radius: .75rem;    
-    padding: .5rem;    
+    border-radius: .25rem;        
     
 }
 
