@@ -6,18 +6,15 @@
     display: flex;
     flex-flow: row wrap;    
     width: 25%;
-    /* border: blueviolet solid;     */
-    align-items: flex-start;
+   
 
 }
 
-.image {
-    
-    max-width: 9rem;
-    max-height: fit-content;
-    min-width: 12rem;
-    border-radius: .75rem;    
-    padding: .5rem;    
+.image {    
+    max-width: 10rem;
+    max-height: fit-content;    
+    border-radius: .25rem;   
+    flex-flow: row wrap;       
     
 }
 
@@ -37,6 +34,16 @@
 
 
 @media screen and (max-width: 1050px) {
+
+    .wrapper {
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 0;
+        display: flex;
+        flex-flow: row wrap;    
+           
+    
+    }
     
     .image {
         max-width: 7rem;
