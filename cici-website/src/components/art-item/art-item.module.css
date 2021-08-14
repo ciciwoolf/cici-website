@@ -1,12 +1,9 @@
 
- .wrapper {
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 0;
+ .wrapper {     
+   
     display: flex;
     flex-flow: row wrap;    
-    width: 25%;
-   
+    width: 25%;   
 
 }
 

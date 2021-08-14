@@ -1,11 +1,9 @@
-.wrapper {
-    padding: 2rem;
-    min-height: 100vh;
-    /* border: blue solid;   */
+.wrapper {       
+    max-height: 100vh;
+    border: blue solid;  
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-
 }
 
 

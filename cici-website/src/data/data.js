@@ -1,4 +1,12 @@
 
+export const OneWork = [
+    {
+      id: 1,
+      name: "Bee Trees",
+      image: "https://artofcici-img.s3.amazonaws.com/beatrees.jpg",
+    }
+  ]
+
 
   export const MiscWorks = [
     {
