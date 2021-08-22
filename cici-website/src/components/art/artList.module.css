@@ -1,10 +1,21 @@
-.wrapper {       
-    max-height: 100vh;
+.wrapperOne {       
+   
     border: blue solid;  
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-flow: row;
+    flex-wrap: wrap; 
+    flex-wrap: 1;   
 }
+
+.wrapperTwo {       
+    
+    border: orange solid;  
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;    
+    flex-grow: 1;
+}
+
 
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { ArtItem } from "../art-item/ArtItem";
+import { SelectedArtItem } from "../art-item/SelectedArtItem";
 import styles from "./artList.module.css";
 import { SquaredWorks } from "../../data/data";
 import { OneWork } from "../../data/data";
@@ -19,7 +20,7 @@ export const ArtList = () => {
 
   const Work = OneWork.map((item) => {
     return (
-      <ArtItem
+      <SelectedArtItem
         id={item.id}
         key={item.id}
         image={item.image}
@@ -30,11 +31,14 @@ export const ArtList = () => {
  
 
   return (    
-     <div className={styles.wrapper}>
-       {artWorkImages}  
-       {Work}         
-    </div>    
-    
+     <>
+     <div className={styles.wrapperOne}>
+      {artWorkImages}                   
+      </div>   
+      <div className={styles.wrapperTwo}>
+      {Work}              
+     </div> 
+    </>     
   )
 }
 

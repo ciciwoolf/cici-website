@@ -1,8 +1,7 @@
 import React from "react";
-import styles from "./art-item.module.css";
-
+import styles from "./selected-art.module.css";
        
-export const ArtItem = (props) => {
+export const SelectedArtItem = (props) => {
 console.log(props)
   
        return (         

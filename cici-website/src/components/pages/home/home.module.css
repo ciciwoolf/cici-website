@@ -4,7 +4,7 @@
 
 .container {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -17,8 +17,9 @@
   .content{
       flex-grow: 3;
       background:#FFFFFF;
-      flex-wrap: wrap;
-     
+      flex-wrap: wrap;   
+      height: 90vh;  
+      border: magenta solid 10px;
     }
 
   .sidebar { 
@@ -92,7 +93,7 @@
 
     /* Media Queries */
 
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1350px) {
     
       .city {
         padding: .75rem;  
@@ -134,3 +135,95 @@
        
       }
     }
+
+    @media screen and (max-width: 400px) {  
+
+      .container {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        font-size: 10px;    
+        background: LightGray;
+        
+      }  
+        
+      .content{
+          background:#FFFFFF;
+          flex-wrap: wrap;
+         
+        }
+    
+      .sidebar { 
+         
+          display: flex; 
+          flex-direction: column;
+          align-items: center;
+          background: url("https://artofcici-img.s3.amazonaws.com/sidebar3.jpg") no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          justify-content: space-between;
+          align-items: flex-end;
+          flex-wrap: wrap;
+         
+        }
+    
+        .name {     
+          margin-top: 3rem; 
+          padding: 0 2rem 0 0;
+          font-family: 'Homemade Apple', cursive, sans-serif;
+          color: whitesmoke;
+          font-size: 1rem;
+          text-align: center;
+        }
+    
+        .city {
+          margin-bottom: 3rem;
+          padding:  0 2rem 0 0;
+          align-self: flex-end;
+          text-align: center;
+          font-family: 'Homemade Apple', cursive, sans-serif;
+          color: whitesmoke;
+          font-size: 2rem;          
+        }
+    
+        .footer {
+          font-size: 40px;
+          background: #8C2155;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end;
+          height: 50vh;
+        }
+      
+    
+          .contact {       
+          margin-bottom: 2rem;
+          margin-right: 2rem;
+          font-family: 'Homemade Apple', cursive, sans-serif;
+          color: white;
+          font-size: 1rem;  
+         
+          
+        }
+    
+        .gallery {       
+          margin-bottom: 2rem;
+          margin-right: 2rem;
+          font-family: 'Homemade Apple', cursive, sans-serif;
+          color: white;
+          font-size: 1rem;  
+         
+        }
+    
+    
+    }
+
+
+
+    
