@@ -1,3 +1,63 @@
+export const SquareWorks = [
+  {
+    id: 1,
+    name: "Carlos Michelini Quartet Plays at Borges 1975 December 2020",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/borges-jazz1.jpg"
+    
+  },   
+  {
+    id: 2,
+    name: "Charlie Teaches Japanese Jiu Jitsu",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/charlie-jiujitsu.jpg"
+  
+  },
+   {
+    id: 3,
+    name: "Self-Potrait in the Year 2021",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/mask-selfie.jpg"
+  },  
+  {
+    id: 4,
+    name: "Evening Teapot with Newspaper",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/news-teapot.jpg"
+    
+  },       
+  {
+    id: 5,
+    name: "Lucio: Quarantine Buddy",
+    image: "https://artofcici-img.s3.amazonaws.com/lucio.jpg"
+   
+  },
+  {
+    id: 6,
+    name: "Tea with Chick Corea II",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/teapot2.jpg"
+  
+  },
+    
+  {
+    id: 7,
+    name: "Wolf Dream",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/wolfMN.jpg"
+   
+  },      
+  {
+    id: 8,
+    name: "Literature and Muay Thai",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/summerMT.jpg"
+ 
+  },
+  {
+    id: 9,
+    name: "Dream of Former Pets in Palos Borrachos",
+    image: "https://artofcici-sep10-2021.s3.amazonaws.com/pets-trees.jpg"
+    
+     }
+]
+
+
+
+
 
 
   export const MiscWorks = [

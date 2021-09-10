@@ -12,22 +12,14 @@
   }  
     
   .content {
+      width: '100%';
       flex-grow: 3;
+      position: 'relative';
       background: #F5F5F5;
       flex-wrap: wrap; 
       height: 100vh;    
     }
 
-    .artContainer {    
-      height: 100%;
-      max-width: 100%;
-      display: grid;  
-      border: blue solid 5px;
-      grid-template-columns: 25% 25% 25% 25%;
-      grid-template-rows: 33.333% 33.333% 33.333%;
-      grid-gap: 10px 15px;    
-     
-    }
 
   .sidebar { 
       min-width: 30%;

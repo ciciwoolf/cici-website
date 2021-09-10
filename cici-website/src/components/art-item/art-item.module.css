@@ -1,15 +1,30 @@
 
-.image {
-    max-width: 175px;
-    padding: 0rem; 
-    margin: 1rem .75rem;    
-    min-width: 12rem;
-    border-radius: .25rem;        
-    
+
+.card {
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: 16px;
+}
+
+.card_small {
+    grid-row-end: span 26;
+}
+
+.card_medium {
+    grid-row-end: span 33;
+}
+
+.container_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+.card_large {
+    grid-row-end: span 45;
 }
 
 /* Media Queries */
-
+/* 
 @media screen and (max-width: 1290px) {
 
     .wrapper {
@@ -29,4 +44,4 @@
         max-width: 7rem;
         padding: .25rem;
     }
-  }  
+  }   */

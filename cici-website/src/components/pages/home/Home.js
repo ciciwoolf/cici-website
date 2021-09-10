@@ -12,8 +12,8 @@ export const Home = () => {
     <div className={ styles.wrapper}>
         <section className={ styles.container}>
             <div className={styles.content}>
-              <div className={styles.artContainer}><ArtList/></div>             
-              </div>
+              <ArtList/>             
+            </div>
             <div className={styles.sidebar}>
               <p className={styles.name}>Cici Woolf</p>
               <p className={styles.city}>Minneapolis --<br/>Buenos Aires

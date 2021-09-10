@@ -19,6 +19,12 @@ html {
   background-color: #1AC8ED;
   
 }
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  background-color: grey;
+}
 
 
 
