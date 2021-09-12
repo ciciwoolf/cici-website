@@ -1,11 +1,89 @@
 
-export const OneWork = [
+// export const OneWork = [
+//     {
+//       id: 1,
+//       name: "Bee Trees",
+//       image: "https://artofcici-img.s3.amazonaws.com/beatrees.jpg",
+//     }
+//   ]
+
+  export const SquareWorks = [
     {
       id: 1,
-      name: "Bee Trees",
-      image: "https://artofcici-img.s3.amazonaws.com/beatrees.jpg",
-    }
+      name: "Carlos Michelini Quartet Plays at Borges 1975 December 2020",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/borges-jazz1.jpg"
+      
+    },   
+    {
+      id: 2,
+      name: "Charlie Teaches Japanese Jiu Jitsu",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/charlie-jiujitsu.jpg"
+    
+    },
+     {
+      id: 3,
+      name: "Self-Potrait in the Year 2021",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/mask-selfie.jpg"
+    },  
+    {
+      id: 4,
+      name: "Wolf Dream",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/wolfMN.jpg"
+    
+      
+    },       
+    {
+      id: 5,
+      name: "Lucio: Quarantine Buddy",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/lucio.png"
+     
+    },
+    {
+      id: 6,
+      name: "Tea with Chick Corea II",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/teapot2.jpg"
+    
+    },
+      
+    {
+      id: 7,
+      name: "Evening Teapot with Newspaper",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/news-teapot.jpg"
+     
+    },      
+    {
+      id: 8,
+      name: "Literature and Muay Thai",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/summerMT.jpg"
+   
+    },
+    {
+      id: 9,
+      name: "Dream of Former Pets in Palos Borrachos",
+      image: "https://artofcici-sep10-2021.s3.amazonaws.com/pets-trees.jpg"
+      
+       },
+      
+      {
+        id: 10,
+        name: "Emily and her Books",
+        image: "https://artofcici-sep10-2021.s3.amazonaws.com/emily.jpg"
+      },
+
+      {
+        id: 11,
+        name: "Toad",
+        image: "https://artofcici-sep10-2021.s3.amazonaws.com/toad.jpg"
+      },
+      {
+        id: 12,
+        name: "Teapot the First",
+        image: "https://artofcici-sep10-2021.s3.amazonaws.com/teapot1.jpg"
+      }  
   ]
+  
+  
+  
 
 
   export const MiscWorks = [
@@ -97,87 +175,87 @@ export const OneWork = [
 ]
 
 
-export const SquaredWorks = [
+// export const SquaredWorks = [
   
-  {
-    id: 1,
-    name: "Emily and her Books",
-    image: "https://artofcici-img.s3.amazonaws.com/emily.jpg",
-    height: 475,
-    width: 475
-  },
-   {
-    id: 2,
-    name: "Libros del Paisaje",
-    image: "https://artofcici-img.s3.amazonaws.com/libros.jpg",
-    height: 475,
-    width: 475
-  },         
-  {
-    id: 3,
-    name: "Lucio: Quarantine Buddy",
-    image: "https://artofcici-img.s3.amazonaws.com/lucio.jpg",
-    height: 475,
-    width: 475
-  },
-  {
-    id: 4,
-    name: "Tea with Chick Corea II",
-    image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
-    height: 475,
-    width: 475
-  },    
-   {
-    id: 5,
-    name: "Toad and his Ghost",
-    image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
-    height: 475,
-    width: 475
-  },
-  {
-    id: 6,
-    name: "Glass Shards",
-    image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+//   {
+//     id: 1,
+//     name: "Emily and her Books",
+//     image: "https://artofcici-img.s3.amazonaws.com/emily.jpg",
+//     height: 475,
+//     width: 475
+//   },
+//    {
+//     id: 2,
+//     name: "Libros del Paisaje",
+//     image: "https://artofcici-img.s3.amazonaws.com/libros.jpg",
+//     height: 475,
+//     width: 475
+//   },         
+//   {
+//     id: 3,
+//     name: "Lucio: Quarantine Buddy",
+//     image: "https://artofcici-img.s3.amazonaws.com/lucio.jpg",
+//     height: 475,
+//     width: 475
+//   },
+//   {
+//     id: 4,
+//     name: "Tea with Chick Corea II",
+//     image: "https://artofcici-img.s3.amazonaws.com/teapot2.jpg",
+//     height: 475,
+//     width: 475
+//   },    
+//    {
+//     id: 5,
+//     name: "Toad and his Ghost",
+//     image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+//     height: 475,
+//     width: 475
+//   },
+//   {
+//     id: 6,
+//     name: "Glass Shards",
+//     image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
    
-  },
-  {
-    id: 7,
-    name: "Beatrees",
-    image: "https://imgsquarejuly22.s3.amazonaws.com/beatrees.jpg",
+//   },
+//   {
+//     id: 7,
+//     name: "Beatrees",
+//     image: "https://imgsquarejuly22.s3.amazonaws.com/beatrees.jpg",
    
-  },
-   {
-    id: 8,
-    name: "Minnesota Dream",
-    image: "https://imgsquarejuly22.s3.amazonaws.com/MN.jpg"    
-  },         
-  {
-    id: 9,
-    name: "Selfie",
-    image: "https://imgsquarejuly22.s3.amazonaws.com/selfie.jpg",
+//   },
+//    {
+//     id: 8,
+//     name: "Minnesota Dream",
+//     image: "https://imgsquarejuly22.s3.amazonaws.com/MN.jpg"    
+//   },         
+//   {
+//     id: 9,
+//     name: "Selfie",
+//     image: "https://imgsquarejuly22.s3.amazonaws.com/selfie.jpg",
    
-  },
-  {
-    id: 10,
-    name: "Pets",
-    image: "https://imgsquarejuly22.s3.amazonaws.com/pets.jpg",
+//   },
+//   {
+//     id: 10,
+//     name: "Pets",
+//     image: "https://imgsquarejuly22.s3.amazonaws.com/pets.jpg",
     
-  },    
-   {
-    id: 11,
-    name: "Toad and his Ghost",
-    image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
-    height: 475,
-    width: 475
-  },
-  {
-    id: 12,
-    name: "Glass Shards",
-    image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
-    height: 475,
-    width: 475
-  }
-]
+//   },    
+//    {
+//     id: 11,
+//     name: "Toad and his Ghost",
+//     image: "https://artofcici-img.s3.amazonaws.com/toad.jpg",
+//     height: 475,
+//     width: 475
+//   },
+//   {
+//     id: 12,
+//     name: "Glass Shards",
+//     image: "https://artofcici-img.s3.amazonaws.com/glass.jpg",
+//     height: 475,
+//     width: 475
+//   }
+// ]
 
 
 

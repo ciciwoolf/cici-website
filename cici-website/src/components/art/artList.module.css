@@ -1,20 +1,12 @@
-.wrapperOne {       
-   
-    border: blue solid;  
+.wrapper {       
+    justify-content: space-evenly;
+    padding: 1.5rem;
     display: flex;
     flex-flow: row;
-    flex-wrap: wrap; 
-    flex-wrap: 1;   
+    flex-wrap: wrap;       
 }
 
-.wrapperTwo {       
-    
-    border: orange solid;  
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;    
-    flex-grow: 1;
-}
+
 
 
 
