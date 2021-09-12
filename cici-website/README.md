@@ -15,4 +15,3 @@ Used justify-content: space-evenly which centers everything all the time.
 
 
 
-#Update images- the files are too large. 

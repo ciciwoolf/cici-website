@@ -1,28 +1,9 @@
 import React from "react";
-// import React, {useState} from "react";
-//import { Switch, Route } from "react-router-dom";
 import styles from "./home.module.css";
-import {ArtList} from "../../art";
-
-// const isLargeScreen = () => window.innerWidth > 600 ? true : false
+import { ArtList } from "../../art";
+import   { Link } from "react-router-dom";
 
 export const Home = () => {
-
-// const onResize = () => {
-//   const normText = isLargeScreen();
-//   setVisibility(normText);
-// }
-
-// const textTransform = () => {
-//   const normText = isLargeScreen();
-//   if (!normText) {
-//     setVisibility(false);
-//   }
-// }
-
-// window.onresize = onResize;
-// const [isVisible, setVisibility] = useState(isLargeScreen());
-
 
   return (
     <div className={ styles.wrapper}>
@@ -30,16 +11,21 @@ export const Home = () => {
             <div className={styles.content}><ArtList/></div>
             <div className={styles.sidebar}>
               <p className={styles.name}>Cici Woolf</p>
-              <p className={styles.city}>Minneapolis --<br/>Buenos Aires
+              <p className={styles.city}>Illustrations
+              </p>            
+
+              <p className={styles.city}>Minneapolis &<br/>Buenos Aires
               </p>              
 
             </div>
                               
         </section>
 
-        <footer className={ styles.footer}>             
-            <div className={styles.gallery}>Gallery</div>   
-            <div className={styles.contact}>Contact</div>         
+        <footer className={styles.footer}>             
+            <div className={styles.footerLinks}>
+              <Link className={styles.menu_bottom} to="/gallery">Gallery</Link>  
+              <Link className={[styles.menu_bottom, styles.menu_bottom_last].join(' ')} to="/contacts">Contact</Link>
+            </div>         
         </footer>
     </div>
     

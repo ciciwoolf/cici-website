@@ -7,9 +7,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;     
-    background: blue;
-    
+    justify-content: flex-start;         
   }  
     
   .content{
@@ -33,8 +31,7 @@
       background-size: cover;
       justify-content: space-between;
       align-items: flex-end;
-      flex-wrap: wrap;
-     
+      flex-wrap: wrap;     
     }
 
     .name {     
@@ -61,37 +58,38 @@
       background: #8C2155;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
-      align-items: flex-end;
+      justify-content: flex-end; 
+      align-items: flex-end;  
       height: 50vh;
     }
   
-
-      .contact {       
+    .footerLinks {
       margin-bottom: 2rem;
+    }
+
+    .menu_bottom {       
+      margin-bottom: 3rem;
       margin-right: 2rem;
       font-family: 'Homemade Apple', cursive, sans-serif;
       color: white;
-      font-size: 2.5rem;  
-     
-      /* margin-top: 14rem;
-      margin-right: 5rem; */
+      font-size: 2.5rem;
+      text-decoration: none;
     }
 
-    .gallery {       
-      margin-bottom: 2rem;
+    .menu_bottom_last {  
       margin-right: 3rem;
-      font-family: 'Homemade Apple', cursive, sans-serif;
-      color: white;
-      font-size: 2.5rem;  
-      /* margin-top: 14rem;
-      margin-right: 5rem; */
     }
 
 
     /* Media Queries */
 
     @media screen and (max-width: 1350px) {
+
+      .name {
+        padding: .75rem;  
+        text-align: center;   
+        font-size: 1.8rem;
+      }
     
       .city {
         padding: .75rem;  
@@ -110,7 +108,7 @@
       .name {
         padding: .75rem;  
         text-align: center;   
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
 
       .city {
@@ -121,19 +119,7 @@
     }
 
 
-    @media screen and (max-width: 450px) {
-      .name {
-        padding: .75rem;  
-        text-align: center;   
-        font-size: 1.5rem;
-      }
-
-      .city {
-        display: none;
-       
-      }
-    }
-
+   
     @media screen and (max-width: 400px) {  
 
       .container {

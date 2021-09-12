@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
 
 * {  
   margin:0;
   padding: 0;
- 
 }
 
 html {
-  /* text-align: center; */
-  background-color: #1AC8ED;
-  font-family: sans-serif;
-}
-
-.App {
-  /* text-align: center; */
-  background-color: #1AC8ED;
-  
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
